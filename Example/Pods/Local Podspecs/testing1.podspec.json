@@ -1,0 +1,22 @@
+{
+  "name": "testing1",
+  "version": "0.1.0",
+  "summary": "A short description of testing1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ex-hupeng003/testing1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ex-hupeng003": "EX-HUPENG003@pingan.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/ex-hupeng003/testing1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "testing1/Classes/**/*"
+}
