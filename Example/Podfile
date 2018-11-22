@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'testing1_Example' do
+  pod 'testing1', :path => '../'
+
+  target 'testing1_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
